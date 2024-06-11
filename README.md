@@ -24,31 +24,30 @@ The instructions for this activity were broken into two parts:
 The first task was to visualize an earthquake dataset by completing the following steps:
 
 1. **Get the dataset**:
-    - Visit the [USGS GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose a dataset to visualize.
+    - Visited the [USGS GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and chose a dataset to visualize.
 
 2. **Import and visualize the data**:
-    - Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
-    - The data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
-        - *Hint*: The depth of the earthquake can be found as the third coordinate for each earthquake.
-    - Include popups that provide additional information about the earthquake when its associated marker is clicked.
-    - Create a legend that will provide context for your map data.
+    - Using Leaflet I created a map that plotted all the earthquakes from the dataset based on their longitude and latitude.
+    - Used data markers to reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes appear larger, and earthquakes with greater depth appear darker in color.
+    - Included popups that provide additional information about the earthquake when its associated marker is clicked.
+    - Created a legend that provides context for the map data.
 
 ### Part 2: Gather and Plot More Data (Optional)
 
 The objective was to plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity by completing the following steps:
 
 1. **Get the tectonic plates dataset**:
-    - Visit the [tectonic plates dataset](https://github.com/fraxen/tectonicplates) page and choose a dataset to visualize.
+    - Visited the [tectonic plates dataset](https://github.com/fraxen/tectonicplates) page and chose a dataset to visualize.
 
 2. **Import and visualize the tectonic plates data**:
-    - Plot the tectonic plates dataset on the map in addition to the earthquakes.
-    - Add other base maps to choose from.
-    - Put each dataset into separate overlays that can be turned on and off independently.
-    - Add layer controls to your map.
+    - Plotted the tectonic plates dataset on the map in addition to the earthquakes.
+    - Added other base maps to choose from.
+    - Placed each dataset into separate overlays that can be turned on and off independently.
+    - Added layer controls to the map.
 
 ## Files Used
 
-List the files used in the project below:
+The files used in the project can be found below:
 
 - `index.html`: The main HTML file that contains the structure of the web page.
 - `style.css`: The CSS file that contains the styles for the visualization.
