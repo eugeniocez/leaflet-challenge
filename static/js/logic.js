@@ -67,4 +67,21 @@ d3.json(url).then(data => {
 // With this we can control the position where the legend will show
 
 let legend = L.control({ position: 'bottomright'});
+
+legend.onAdd = function(myMap){
+    var div = L.DomUtil.create('div', 'legend');
+    var grades = [-10, 10, 30, 50, 70, 90];
+    var colors = ['limegreen', 'yellowgreen', 'gold', 'orange', 'orangered', 'red'];
+
+    div.innerHTML += '<b>Earthquake Depth (km)</b><br>';
+
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
 legend.addTo(myMap);
