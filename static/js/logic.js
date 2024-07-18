@@ -1,6 +1,6 @@
 // Set the initial zoom and center
 
-let myMap = L.map('map', {center: [30,-100], zoom: 4});
+let myMap = L.map("map", {center: [30,-100], zoom: 4});
 
 // Add the tile layer from openstreetmap
 
