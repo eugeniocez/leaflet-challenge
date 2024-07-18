@@ -33,6 +33,11 @@ function getColor(depth){
     }
 }
 
+// Function to convert the circle markers into a bigger scale
+function getRadius(magnitude) {
+    return magnitude * 3;
+}
+
 d3.json(url).then(data => {
 
     for (let i=0; i < data.features.length; i++){
