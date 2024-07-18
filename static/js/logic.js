@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(myMap);
 
-url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
 
 // Add the ability to change the color of the circle depending on the depth of the earthquake
 
