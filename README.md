@@ -32,19 +32,6 @@ The first task was to visualize an earthquake dataset by completing the followin
     - Included popups that provide additional information about the earthquake when its associated marker is clicked.
     - Created a legend that provides context for the map data.
 
-### Part 2: Gather and Plot More Data (Optional)
-
-The objective was to plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity by completing the following steps:
-
-1. **Get the tectonic plates dataset**:
-    - Visited the [tectonic plates dataset](https://github.com/fraxen/tectonicplates) page and chose a dataset to visualize.
-
-2. **Import and visualize the tectonic plates data**:
-    - Plotted the tectonic plates dataset on the map in addition to the earthquakes.
-    - Added other base maps to choose from.
-    - Placed each dataset into separate overlays that can be turned on and off independently.
-    - Added layer controls to the map.
-
 ## Files Used
 
 The files used in the project can be found below:
